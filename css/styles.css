@@ -1,0 +1,288 @@
+/* 
+Name:Chris Cordoba
+FileName:styles.css
+*/
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+main {
+    flex: 1;
+    padding-bottom: 100px;
+}
+
+/* Header Styles */
+header {
+    background-color: #d10808;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.prices-head {
+    text-align: center;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #d10808;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+nav ul li a:hover{
+    background-color: #ffffff;
+    color: #d10808;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+.social-media img {
+    width: 40px;
+    height: auto;
+    float: left;
+    padding: 0px;
+}
+
+/* Main Styles */
+.main-page {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #848181;
+}
+
+.main-page h2 {
+    color: #0d0d0d;
+    font-size: 30px;
+}
+
+.main-page p {
+    color: #090909;
+    font-size: 30px;
+}
+
+.contractor-img {
+    display: block;
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.contact-h2 {
+    text-align: center;
+}
+
+/* Style rule for email link in footer */
+.email-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
+
+/* Style rule for table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #ddd;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Style rules for videos */
+video {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px;
+    
+}
+
+.caption {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.woodimage-container {
+    position: relative;
+    top: -400px;
+    float: right;
+    width: 600px;
+}
+
+.woodimage-container img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style rules for contact form */
+.contact-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.contact-form input[type="text"],
+.contact-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form input[type="radio"],
+.contact-form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style rules for my faq */
+.faq {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.question {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.answer {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Advance img animation */
+.center{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+  }
+  .first, .second, .third, .fourth, .fifth{
+          float:left;
+          border-radius: 25px;
+          background-color: blue;     
+          width: 25px;
+          height: 300px;
+          transition: width 3s;
+          margin-left:10px; 
+          opacity:.5;		
+      }
+  .first{
+          background-image:url(https://st2.depositphotos.com/1723345/10224/i/450/depositphotos_102243078-stock-photo-plasterboard-walls-gypsum-wall-under.jpg);
+  
+      }
+  .second{
+                background-image:url(https://media.istockphoto.com/id/1310643662/photo/crew-installing-new-shingles-on-roof-on-a-rainy-day.jpg?s=612x612&w=0&k=20&c=7JOhn1PP1IGWireefIKnxQRn04QAsoxQrEutJmI8GU4=);
+   }
+  .third{
+                background-image:url(https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2023/06/featured-image-laminate-flooring.jpeg-e1686228411336.jpg);
+   }
+  .fourth{
+                background-image:url(https://c8.alamy.com/comp/2JAAX28/bricklayer-laying-bricks-on-mortar-on-new-residential-house-construction-2JAAX28.jpg);
+   }
+  .fifth{
+                background-image:url(https://img.freepik.com/free-photo/male-electrician-works-switchboard-with-electrical-connecting-cable_169016-15204.jpg);
+   }
+  .first:hover, .second:hover, .third:hover, .fourth:hover, .fifth:hover{
+          width: 300px;
+          opacity:1;
+  }
+
+  /* Media query for mobile devices */
+  @media only screen and (max-width: 600px) {
+    
+    body {
+        font-size: 14px;
+    }
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+    
+}

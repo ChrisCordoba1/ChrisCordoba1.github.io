@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+    Name:Chris Cordoba
+    FileName:contact.html
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Us!</h1>
+        
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="examples.html">Examples</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </ul>
+    </nav>
+    <main>
+       <div class="contact-h2">
+            <h2>Contact Us - Construction Services</h2>
+       </div> 
+        <form action="submit.php" method="POST" class="contact-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+            <label>Interests:</label>
+            <input type="checkbox" id="residential" name="interests" value="residential">
+            <label for="residential">Residential Projects</label>
+            <input type="checkbox" id="commercial" name="interests" value="commercial">
+            <label for="commercial">Commercial Projects</label>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="UK">UK</option>
+                <option value="Australia">Australia</option>
+            </select>
+
+            <input type="submit" value="Submit">
+        </form>
+        <!-- Your content here -->
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Chris Cordoba</p>
+        <p>Email: <a href="mailto:LHC@gmail.com" class="email-link">LHC@gmail.com</a>
+            <div class="social-media">
+                <a href="https://www.instagram.com/" target="_blank"> <img src="images/instagram-icon_1057-2227.avif" alt="Instagram Logo"></a>
+                <a href="https://www.facebook.com/" target="_blank"> <img src="images/download.png" alt="Facebook Logo"></a>
+            </div>
+    </footer>
+    
+</body>
+</html>
